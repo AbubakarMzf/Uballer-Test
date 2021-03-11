@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color :  #2f55a4 ;   
+    margin : 0 auto ; 
+    height : 50px ;    
+}
+
+
+body {
+    background: linear-gradient(0deg, rgba(212,217,233,1) 47%, rgba(255,255,255,1) 100%) no-repeat center center fixed;
+}
+
+
+#container {
+    display : flex ; 
+    justify-content : flex-end ;
+    color : white ;
+}
+
+
+.logElement {
+    display: flex;
+    flex-direction: column;
+    margin-right : 20px ; 
+    font-family : 'Montserrat' ; 
+}
+
+#submit {
+    background-color : #406cc8 ; 
+    border-radius: 5px ;
+    color : white ; 
+    margin-right : 20px ; 
+}
+
+#registration {
+    width : 100% ; 
+    display : flex ; 
+    justify-content: flex-end;
+}
+
+
+#principal {
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+}
+
+#registration div input {
+    width : 200px ; 
+    height : 50px ; 
+    margin-bottom:5px;
+    margin:5px ; 
+}
+#registration div.flex {
+    display: flex;
+}
+#registration div.flex input {
+    flex: 1 1 auto;
+}
+
+#registration .line input {
+    width: calc(100% - 10px);
+}
+
+span {
+    margin-left : 40% ; 
+}
+
+
+#birth {
+    margin-top: 25px ;
+}
+
+select{
+    border-radius: 5px ;
+    height : 25px ; 
+    width : auto ; 
+    margin-top: 20px ;
+}
+
+
+input.gender {
+   height : 20px !important  ;  
+   margin-top: 10px  !important ; 
+}
+
+#genderContainer div{
+    display: flex;
+    justify-content: flex-start;
+}
+
+#genderContainer p {
+    font-size : 20px ; 
+}
+
+
+
+#send{
+    margin-top: 25px ;
+    display : flex ; 
+    justify-content: center;
+}
+
+#send input {
+    background-color : #5E9A4B ;
+    color : white ; 
+    font-weight: bold;
+    border-radius : 10px ;  
+}
+
+
+.error {
+    display:none ; 
+}
+
+#text {
+    display : flex ; 
+    flex-direction: column;
+    margin-left : 70% ; 
+    padding-top : 5% ; 
+}
