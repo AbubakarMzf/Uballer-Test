@@ -71,6 +71,13 @@
             <div><input type="radio" name="gender" class="gender" value="F" required> <p>Femme </p> </div>
             <div><input type="radio" name="gender" class="gender" value="M" required> <p>Homme</p></div>
         </div>
+        
+        <p id="mention">
+        En cliquant sur Inscription, vous acceptez nos <strong>Conditions</strong> et indiquez que vous avez lu notre <strong>Politique</strong> 
+        d'utilisation des donnée, y compris notre <strong>Utilisation des cookies</strong>. Vous pourrez recevoir des notifications 
+        par texto de la part de Facebook et pouvez vous désabonner à tout moment. 
+        </p>
+
         <div id="send">
             <input type="submit" value="Inscription">
         </div>

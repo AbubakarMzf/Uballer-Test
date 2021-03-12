@@ -124,3 +124,13 @@ input.gender {
     margin-left : 70% ; 
     padding-top : 5% ; 
 }
+
+#mention{
+    width : 400px  ; 
+    text-align: center;
+    align-items: center;
+}
+
+strong {
+    color : blue ; 
+}
