@@ -1,4 +1,7 @@
-﻿# Uballer-Test
+﻿# Test
+ <h3>Ce code est une sorte de "facebook". Il y a une interface de connexion, d'inscription. Cette 
+ page a été réalisé en PHP avec l'architecture MVC. 
+Initialement, cette page a été réalisé pour un test pour une entreprise. </h3>
 
 Voici les étapes à suivre pour lancer le projet en local. 
 
